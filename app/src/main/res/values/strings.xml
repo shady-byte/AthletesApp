@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AthletesApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="athlete_image_description">it is the athlete image</string>
+    <string name="brief">Brief</string>
+    <string name="dialog_title">No Internet</string>
+    <string name="dialog_message">Please check your connection status and try again.</string>
+    <string name="try_again">Try again</string>
+</resources>
