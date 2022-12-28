@@ -39,7 +39,6 @@ class SplashFragment : Fragment() {
         (requireActivity() as MainActivity).supportActionBar?.hide()
 
         createAlertDialog()
-        viewModel.deleteAthletes()
 
         return binding?.root
     }
@@ -66,7 +65,7 @@ class SplashFragment : Fragment() {
         builder.setIcon(R.drawable.ic_wifi_tethering_error)
         builder.setPositiveButton(R.string.try_again) { it, _ ->
             viewModel.getAthletes()
-            it.cancel()
+            it.dismiss()
         }
         dialog = builder.create()
     }
